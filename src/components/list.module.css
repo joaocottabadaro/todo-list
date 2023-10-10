@@ -1,0 +1,85 @@
+.list {
+    display: flex;
+    margin: auto;
+    width: 46.625rem;
+
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.listHeader {
+    display: flex;
+    gap: 0.5rem;
+    width: 46.625rem;
+    justify-content: space-between;
+    margin-bottom: 4.063rem;
+    margin-top: -1.688rem
+}
+
+.listInfo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 46.625rem;
+    gap: 0.5rem;
+    margin-bottom: 2.5rem;
+    ;
+}
+
+.listInfo span {
+    border-radius: 999px;
+    background: var(--gray-400);
+    color: var(--gray-200);
+    padding: 0 0.5rem;
+    font-weight: 700;
+    font-size: 0.75rem;
+}
+
+.listInfo p {
+    font-weight: 700;
+    font-size: 0.875rem;
+}
+
+
+
+.listInfo p:first-child {
+
+    color: var(--blue);
+
+}
+
+.listInfo p:last-child {
+    color: var(--purple);
+
+}
+
+.list button {
+    border-radius: 8px;
+    background: var(--blue-dark);
+    color: var(--gray-100);
+    padding: 1rem;
+    border: none;
+
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.875rem;
+    font-weight: 700;
+}
+
+.list button:hover {
+    background: var(--blue);
+    transition: 0.2s ease;
+}
+
+.list input {
+    height: 3.375rem;
+    width: 39.875rem;
+    border-radius: 8px;
+    border: 1px solid var(--gray-700);
+    background: var(--gray-500);
+    color: var(--gray-100);
+    padding: 0.5rem;
+}
